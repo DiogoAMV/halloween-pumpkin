@@ -1,0 +1,32 @@
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.background {
+  display: flex;
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  z-index: -3;
+  background-color: var(--square);
+}
+
+.pumpkin {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.stalk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -140px;
+}

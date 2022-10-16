@@ -1,8 +1,5 @@
-.content {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
+@media screen and (min-width: 768px) {
+  .content {
+    display: flex;
+  }
 }

@@ -1,0 +1,13 @@
+.one {
+  position: absolute;
+  z-index: -1;
+  width: 205.43px;
+  height: 288.44px;
+
+  left: 50%;
+
+  background: var(--pumpkin);
+  // box-shadow: 0px 10px 30px #ea4101, inset 0px 10px 30px #ffd502;
+
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
