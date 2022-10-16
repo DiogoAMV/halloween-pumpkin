@@ -1,0 +1,16 @@
+.two {
+  position: absolute;
+  width: 205.43px;
+  height: 288.44px;
+
+  background: radial-gradient(
+      41.74% 89.96% at 11.3% 10.04%,
+      #ffd502 0%,
+      #f59002 4.17%,
+      #ea4101 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: 0px 10px 30px #ea4101, inset 0px 10px 30px #ffd502;
+
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}

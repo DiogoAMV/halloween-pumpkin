@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  // text
+  font-family: "Poppins", sans-serif;
+  color: var(--white);
+
+  // global styles
+  body {
+    background-color: var(--slate-900);
+  }
+}
+
+:root {
+  --white: #ffff;
+  --background: #ffe9be;
+
+  --slate-300: #94a3b8;
+  --slate-900: #0f172a;
+
+  --stalk: #9b4f24;
+  --pumpkin: #ff8a00;
+}
